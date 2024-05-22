@@ -1,0 +1,84 @@
+/*-Navigation Bar-*/
+#nav-bar{
+    position: sticky;
+    top:0;
+    z-index:10;
+}
+
+.navbar-nav li{
+    padding:0 10px ;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+.navbar-nav .nav-link:hover{
+    color: #ff9100!important;
+ } 
+.navbar-toggler{
+    border: none,!important;
+}
+/*-head-*/
+#Header{
+    width: 80%;
+    height: 15vh;
+    margin:auto;
+    text-align: center;
+    align-content: center;
+    padding: auto;
+}
+/*-card-*/
+#card{
+    width: 80%;
+    max-height: fit-content;
+    margin:auto;
+    padding-bottom: 3vh;
+}
+.btn-primary {
+    --bs-btn-bg: #ff9007!important;
+    --bs-btn-border-color: #ff9007!important;
+    --bs-btn-hover-bg: #ffc107!important;
+    --bs-btn-hover-border-color: #ffc107!important;
+    --bs-btn-active-bg: #ff9007!important;
+    --bs-btn-active-border-color: #ff9007!important;
+}
+.skill{
+    color:#d06f00;
+}
+/*-Intro-*/
+#intro{
+    width: 80%;
+    max-height: fit-content;
+    margin:auto;
+    text-align: left;
+    align-content: center;
+    padding: 5%;
+}
+/*-CV-*/
+.DownCV {
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: white;
+    padding: 4px 8px;
+    transform: translate(0.5rem, 0.5rem);
+    transition: all 0.3s ease;
+  }
+  
+  .DownCV:hover {
+    box-shadow: 0.5rem 0.5rem #fcd34d, -0.5rem -0.5rem #bef264;
+  }
+
+ /*-CV-*/
+.view {
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: white;
+    padding: 4px 8px;
+    transform: translate(0.5rem, 0.5rem);
+    transition: all 0.3s ease;
+  }
+  
+  .view:hover {
+    box-shadow: 0.5rem 0.5rem #fcd34d, -0.5rem -0.5rem #bef264;
+  }
+   
