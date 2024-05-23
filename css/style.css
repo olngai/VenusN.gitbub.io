@@ -16,16 +16,16 @@
     color: #ff9100!important;
  } 
 .navbar-toggler{
-    border: none,!important;
+    border: none!important;
 }
 /*-head-*/
 #Header{
     width: 80%;
-    height: 15vh;
+    max-height: fit-content;
     margin:auto;
     text-align: center;
     align-content: center;
-    padding: auto;
+    padding:2% 2% ;
 }
 /*-card-*/
 #card{
@@ -33,6 +33,10 @@
     max-height: fit-content;
     margin:auto;
     padding-bottom: 3vh;
+}
+.col-sm-4>* {
+    flex: auto;
+    width: 100%;
 }
 .btn-primary {
     --bs-btn-bg: #ff9007!important;
@@ -52,7 +56,6 @@
     margin:auto;
     text-align: left;
     align-content: center;
-    padding: 5%;
 }
 /*-CV-*/
 .DownCV {
@@ -81,4 +84,37 @@
   .view:hover {
     box-shadow: 0.5rem 0.5rem #fcd34d, -0.5rem -0.5rem #bef264;
   }
-   
+/*-Media-*/
+@media (max-width: 600px) {
+    .col-sm-4 {
+        flex: auto!important;
+        width: 100%!important;
+    }
+    #Head{
+        font-size:4vw;
+    }
+    #intro{
+        font-size:3vw;
+        }
+    #card{
+        font-size:3vw;
+    }
+     #card h5, h6{
+        font-size:3vw;
+    }  
+    #nav-bar{
+        font-size:2vw;
+    }  
+}
+@media only screen and (min-width: 992px) {
+    .col-sm-4 {
+        flex: 0 0 auto!important;
+        width: 33.33333333%!important;
+    }
+}
+@media (min-width: 600px) {
+    .col-sm-4 {
+        flex: auto!important;
+        width: 100%!important;
+    }
+}
